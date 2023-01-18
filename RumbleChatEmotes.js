@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.31
+// @version      0.32
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -195,13 +195,6 @@
                         return key;
                     }
                 });
-
-                for (const key of Object.keys(specialEmotes)) {
-                    messageElem.innerHTML = messageElem.innerHTML.replaceAll(
-                        key,
-                        `<img src="${specialEmotes[key]}" style="width: 24px; height: 24px;"  title="${key}">`
-                    );
-                }
             }
         }
     });
