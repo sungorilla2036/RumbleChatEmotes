@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.34
+// @version      0.35
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -133,6 +133,12 @@
         ':MMao:': 'https://cdn.betterttv.net/emote/6124ecd4af28e9568649d789/2x',
         ':monkaX:': 'https://cdn.betterttv.net/emote/58e5abdaf3ef4c75c9c6f0f9/2x',
         ':hyperMarx:': 'https://cdn.frankerfacez.com/emoticon/558080/2',
+        ':npc:': 'https://cdn.betterttv.net/emote/5bca90e10218ea750b6fa507/2x',
+        ':EZ:': 'https://cdn.betterttv.net/emote/5bca90e10218ea750b6fa507/2x',
+        ':zherkaW:': 'https://cdn.betterttv.net/emote/5c6dbef0bf34b0741944f87c/2x',
+        ':DonoWall:': 'https://cdn.betterttv.net/emote/5efcd82551e3910deed68751/2x',
+        ':Zyzz:': 'https://cdn.betterttv.net/emote/5fa13a5f40eb9502e223aeff/2x',
+        ':lebronJAM': 'https://cdn.betterttv.net/emote/60a819e767644f1d67e8a825/2x',
         ':VISION:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':wokeGorilla:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':SOLAR:': 'https://yt3.ggpht.com/eJmsmD9_wmmltD-ETwSpqcBJdm6856VhK1jL0eMVzblDr6K0HLz6tVRDLMVa40TBCA2mMx3ESg=w48-h48-c-k-nd',
