@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.35
+// @version      0.36
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -110,7 +110,7 @@
         ':MONKE:': 'https://cdn.betterttv.net/emote/603be3937c74605395f35fd6/2x',
         ':PeepoBlanket:': 'https://cdn.betterttv.net/emote/60e0d6d48ed8b373e421d34b/2x',
         ':KKomrade:': 'https://cdn.betterttv.net/emote/56be9fd6d9ec6bf74424760d/2x',
-        ':BBomer:': 'https://cdn.betterttv.net/emote/5ed1973710aaa55e29472b1f/2x',
+        ':BBoomer:': 'https://cdn.betterttv.net/emote/5c447084f13c030e98f74f58/2x',
         ':PagMan:': 'https://cdn.betterttv.net/emote/5e87b595acae25096140ca84/2x',
         ':peepoGlad:': 'https://cdn.betterttv.net/emote/5e1a0e188af14b5f1b4384c7/2x',
         ':WAYTOODANK:': 'https://cdn.betterttv.net/emote/601f0191f1cfbf65dbe1ca58/2x',
@@ -139,6 +139,11 @@
         ':DonoWall:': 'https://cdn.betterttv.net/emote/5efcd82551e3910deed68751/2x',
         ':Zyzz:': 'https://cdn.betterttv.net/emote/5fa13a5f40eb9502e223aeff/2x',
         ':lebronJAM': 'https://cdn.betterttv.net/emote/60a819e767644f1d67e8a825/2x',
+        ':ZZoomer:': 'https://cdn.betterttv.net/emote/5d8b41c8d2458468c1f48d6e/2',
+        ':WeSmart:': 'https://cdn.betterttv.net/emote/5a311dd16405a95e4b0d4967/2x',
+        ':monkaHmm:': 'https://cdn.betterttv.net/emote/5aa16eb65d4a424654d7e3e5/2x',
+        ':monkaThink:': 'https://cdn.betterttv.net/emote/5e15014d0550d42106b8f550/2x',
+        ':pepeDJ:': 'https://cdn.betterttv.net/emote/610250882d1eba5400d2347c/2x,
         ':VISION:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':wokeGorilla:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':SOLAR:': 'https://yt3.ggpht.com/eJmsmD9_wmmltD-ETwSpqcBJdm6856VhK1jL0eMVzblDr6K0HLz6tVRDLMVa40TBCA2mMx3ESg=w48-h48-c-k-nd',
