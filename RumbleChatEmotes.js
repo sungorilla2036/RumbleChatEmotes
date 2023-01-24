@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.37
+// @version      0.38
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -142,7 +142,7 @@
         ':WeSmart:': 'https://cdn.betterttv.net/emote/5a311dd16405a95e4b0d4967/2x',
         ':monkaHmm:': 'https://cdn.betterttv.net/emote/5aa16eb65d4a424654d7e3e5/2x',
         ':monkaThink:': 'https://cdn.betterttv.net/emote/5e15014d0550d42106b8f550/2x',
-        ':pepeDJ:': 'https://cdn.betterttv.net/emote/610250882d1eba5400d2347c/2x,
+        ':pepeDJ:': 'https://cdn.betterttv.net/emote/610250882d1eba5400d2347c/2x',
         ':peepoLove:': 'https://cdn.betterttv.net/emote/61e357b406fd6a9f5be0db9f/2',
         ':DPRKEK:': 'https://cdn.betterttv.net/emote/605a004e7493072efdeb305e/2x',
         ':peepoIran:': 'https://cdn.betterttv.net/emote/6050ef72306b602acc59e1b3/2x',
