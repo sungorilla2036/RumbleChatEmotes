@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.40
+// @version      0.41
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -110,7 +110,6 @@
         ':peepoBlanket:': 'https://cdn.betterttv.net/emote/60e0d6d48ed8b373e421d34b/2x',
         ':KKomrade:': 'https://cdn.betterttv.net/emote/56be9fd6d9ec6bf74424760d/2x',
         ':BBoomer:': 'https://cdn.betterttv.net/emote/5c447084f13c030e98f74f58/2x',
-        ':PagMan:': 'https://cdn.betterttv.net/emote/5e87b595acae25096140ca84/2x',
         ':peepoGlad:': 'https://cdn.betterttv.net/emote/5e1a0e188af14b5f1b4384c7/2x',
         ':WAYTOODANK:': 'https://cdn.betterttv.net/emote/619528c654f3344f88060652/2x',
         ':SoyPog:': 'https://cdn.betterttv.net/emote/6050a436306b602acc59df11/2x',
