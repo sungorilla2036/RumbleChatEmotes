@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.43
+// @version      0.44
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -183,6 +183,7 @@
         ':Cryge:': 'https://cdn.betterttv.net/emote/5f11ba5b73e8e20538d83bcd/2x',
         ':WaterTime:': 'https://cdn.betterttv.net/emote/5ea23f426c27013608bd148b/2x',
         ':KEKG:': 'https://cdn.betterttv.net/emote/5ea258fdce7cbf62fe15ac59/2x',
+        ':krabsPls:': 'https://cdn.betterttv.net/emote/616f602a054a252a431fce3f/2x',
         ':VISION:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':wokeGorilla:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':SOLAR:': 'https://yt3.ggpht.com/eJmsmD9_wmmltD-ETwSpqcBJdm6856VhK1jL0eMVzblDr6K0HLz6tVRDLMVa40TBCA2mMx3ESg=w48-h48-c-k-nd',
