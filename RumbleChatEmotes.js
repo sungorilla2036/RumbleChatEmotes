@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.42
+// @version      0.43
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -42,7 +42,7 @@
         ':Copega:': 'https://cdn.betterttv.net/emote/6041012b306b602acc596ddc/2x',
         ':pepePoint:': 'https://cdn.betterttv.net/emote/5fedefa19d7d952e4059e68c/2x',
         ':PepePoint:': 'https://cdn.betterttv.net/emote/5fedefa19d7d952e4059e68c/2x',
-        ':TrollDespair:': 'https://cdn.betterttv.net/emote/6024574d2eae5518bece2ddd/2x',
+        ':TrollDespair:': 'https://cdn.betterttv.net/emote/63d5c19ecf46f037c1935b47/2x',
         ':SunGorilla:': 'https://cdn.betterttv.net/emote/61ff26f006fd6a9f5be389b6/2x',
         ':SUNGORILLA:': 'https://cdn.betterttv.net/emote/61ff26f006fd6a9f5be389b6/2x',
         ':sungorilla:': 'https://cdn.betterttv.net/emote/61ff26f006fd6a9f5be389b6/2x',
@@ -61,8 +61,11 @@
         ':NOOO:': 'https://cdn.betterttv.net/emote/61354c7baf28e956864c1e70/2x',
         ':ICANT:': 'https://cdn.betterttv.net/emote/61e74edc06fd6a9f5be13c30/2x',
         ':NOTED:': 'https://cdn.betterttv.net/emote/61268edcaf28e956864a13ec/2x',
+        ':Noted:': 'https://cdn.betterttv.net/emote/61268edcaf28e956864a13ec/2x',
+        ':noted:': 'https://cdn.betterttv.net/emote/61268edcaf28e956864a13ec/2x',
         ':UHMMM:': 'https://cdn.betterttv.net/emote/605fd4a97493072efdeb5ce3/2x',
         ':Hmm:': 'https://cdn.frankerfacez.com/emoticon/565612/2',
+        ':Hmmm:': 'https://cdn.frankerfacez.com/emoticon/565612/2',
         ':MeatPotato:': 'https://cdn.betterttv.net/emote/61adf862002cdeedc21e6ed5/2x',
         ':BASEDCIGAR:': 'https://cdn.betterttv.net/emote/5fbe79480d141d6f06d83d24/2x',
         ':basedcigar:': 'https://cdn.betterttv.net/emote/5fbe79480d141d6f06d83d24/2x',
@@ -141,7 +144,7 @@
         ':zherkaW:': 'https://cdn.betterttv.net/emote/5c6dbef0bf34b0741944f87c/2x',
         ':DonoWall:': 'https://cdn.betterttv.net/emote/5efcd82551e3910deed68751/2x',
         ':Zyzz:': 'https://cdn.betterttv.net/emote/5fa13a5f40eb9502e223aeff/2x',
-        ':lebronJAM': 'https://cdn.betterttv.net/emote/60a819e767644f1d67e8a825/2x',
+        ':lebronJAM:': 'https://cdn.betterttv.net/emote/60a819e767644f1d67e8a825/2x',
         ':ZZoomer:': 'https://cdn.betterttv.net/emote/5d8b41c8d2458468c1f48d6e/2',
         ':WeSmart:': 'https://cdn.betterttv.net/emote/5a311dd16405a95e4b0d4967/2x',
         ':monkaHmm:': 'https://cdn.betterttv.net/emote/5aa16eb65d4a424654d7e3e5/2x',
@@ -165,12 +168,21 @@
         ':peepoBanAnimepfp:': 'https://cdn.betterttv.net/emote/5f0e08386a65270522165240/2x',
         ':Basado:': 'https://cdn.betterttv.net/emote/6375366cb9076d0aaebc2fde/2x',
         ':AssadLUL:': 'https://cdn.betterttv.net/emote/5e20cf77bca2995f13fb9581/2x',
-        ':PepeCowboy:': 'https://cdn.betterttv.net/emote/60c5f579f8b3f62601c3d300/2x',
+        ':pepeCowboy:': 'https://cdn.betterttv.net/emote/60c5f579f8b3f62601c3d300/2x',
         ':MongolJam:': 'https://cdn.betterttv.net/emote/60032f4ba637883149c86006/2x',
         ':MongolPls:': 'https://cdn.betterttv.net/emote/60079f3a8a320865dcf3131a/2x',
         ':SNITCH:': 'https://cdn.betterttv.net/emote/5effb77019a5bd0524ebe87b/2x',
         ':ChenCheers:': 'https://cdn.betterttv.net/emote/627a11653c6f14b688476ced/2x',
         ':RedditMoment:': 'https://cdn.betterttv.net/emote/6089862239b5010444d07e46/2x',
+        ':SoyCope:': 'https://cdn.betterttv.net/emote/620da0b606fd6a9f5be4c385/2x',
+        ':BehindTheMask:': 'https://cdn.betterttv.net/emote/620da0b606fd6a9f5be4c385/2x',
+        ':earsbleed:': 'https://cdn.betterttv.net/emote/5f073e6a73e8e20538d7ab9d/2x',
+        ':mask:': 'https://cdn.betterttv.net/emote/5e76d399d6581c3724c0f0b8/2x',
+        ':vax:': 'https://cdn.betterttv.net/emote/5fbaeb9ec242076f1a05218d/2x',
+        ':novax:': 'https://cdn.betterttv.net/emote/6197c76454f3344f88065beb/2x',
+        ':Cryge:': 'https://cdn.betterttv.net/emote/5f11ba5b73e8e20538d83bcd/2x',
+        ':WaterTime:': 'https://cdn.betterttv.net/emote/5ea23f426c27013608bd148b/2x',
+        ':KEKG:': 'https://cdn.betterttv.net/emote/5ea258fdce7cbf62fe15ac59/2x',
         ':VISION:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':wokeGorilla:': 'https://yt3.ggpht.com/FUCoZvCR6Kt03oPOpY_1NOQMOEswS5hWKDKSmoQvJal1aAhYq7LvhFDoCmSdQhiSKGsweGqD3A=w48-h48-c-k-nd',
         ':SOLAR:': 'https://yt3.ggpht.com/eJmsmD9_wmmltD-ETwSpqcBJdm6856VhK1jL0eMVzblDr6K0HLz6tVRDLMVa40TBCA2mMx3ESg=w48-h48-c-k-nd',
