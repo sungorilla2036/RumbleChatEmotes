@@ -38,6 +38,9 @@
   const emoteImage = (key) =>
     `<img src="${emotes[key]}" style="height: 24px; width: 24px;" title="${key}">`;
 
+  const chatHistoryList = document.querySelector('#chat-history-list')
+  if (!chatHistoryList) return;
+
   //
   // Load emote data
   //
@@ -85,14 +88,9 @@
         // Replace :emote: strings with images
         messageElem.innerHTML = messageElem.innerHTML.replaceAll(/:\w+:/g, (key) => {
           const keyLowerCased = key.toLowerCase();
-
-          if (keyLowerCased in emotes) {
-            return emoteImage(keyLowerCased);
-          } else {
-            return key;
-          }
+          return keyLowerCased in emotes ? emoteImage(keyLowerCased) : key;
         });
       }
     }
-  }).observe(document.querySelector('#chat-history-list'), { childList: true });
+  }).observe(chatHistoryList, { childList: true });
 })();
