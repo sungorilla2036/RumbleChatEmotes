@@ -77,9 +77,6 @@
         let messageElem = node.querySelector('.chat-history--message');
         messageElem ||= node.querySelector('.chat-history--rant-text');
 
-        let userElem = node.querySelector('.chat-history--username a');
-        userElem ||= node.querySelector('.chat-history--rant-username');
-
         if (!messageElem) continue;
 
         // Replace :emote: strings with images
