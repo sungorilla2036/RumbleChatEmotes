@@ -14,7 +14,7 @@
   'use strict';
 
   GM_addStyle(`
-    .BetterRumble-emoteMenu {
+    .RumbleChatEmotes-emoteMenu {
       background: #fff;
       border-radius: 0.6rem;
       margin-bottom: 1rem;
@@ -22,15 +22,15 @@
       user-select: none;
     }
 
-    .BetterRumble-emoteMenu div {
+    .RumbleChatEmotes-emoteMenu div {
       height: 200px;
       overflow: scroll;
       overscroll-behavior: contain;
     }
 
-    .BetterRumble-emoteMenu summary { cursor: pointer; }
-    .BetterRumble-emoteMenu img { cursor: pointer; padding: 4px; }
-    .BetterRumble-emoteMenu img:hover { background: #d6e0ea; }
+    .RumbleChatEmotes-emoteMenu summary { cursor: pointer; }
+    .RumbleChatEmotes-emoteMenu img { cursor: pointer; padding: 4px; }
+    .RumbleChatEmotes-emoteMenu img:hover { background: #d6e0ea; }
   `);
 
   let emotes = {};
@@ -54,14 +54,14 @@
       document.querySelector('#chat-rant-form').insertAdjacentHTML(
         'afterend',
         `
-         <details class="BetterRumble-emoteMenu">
+         <details class="RumbleChatEmotes-emoteMenu">
            <summary>Emotes</summary>
            <div>${Object.keys(emotes).map(emoteImage).join('')}</div>
          </details>
          `
       );
 
-      document.querySelector('.BetterRumble-emoteMenu').addEventListener('click', (ev) => {
+      document.querySelector('.RumbleChatEmotes-emoteMenu').addEventListener('click', (ev) => {
         if (!ev.target.matches('img')) return;
         document.querySelector('.chat--input').value += ev.target.title;
       });
@@ -81,9 +81,6 @@
         userElem ||= node.querySelector('.chat-history--rant-username');
 
         if (!messageElem) continue;
-
-        // Set data attribute so message can be filtered using CSS
-        messageElem.dataset.betterRumbleUsername = userElem.textContent;
 
         // Replace :emote: strings with images
         messageElem.innerHTML = messageElem.innerHTML.replaceAll(/:\w+:/g, (key) => {
