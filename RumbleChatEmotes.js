@@ -16,7 +16,7 @@
   GM_addStyle(`
     .RumbleChatEmotes-emoteMenu {
       background: #10212F;
-      border-radius: 0.6rem;
+      border-radius: 0.7rem;
       margin-bottom: 1rem;
       padding: 0.75rem;
       user-select: none;
