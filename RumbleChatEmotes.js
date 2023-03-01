@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.48
+// @version      0.49
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -16,7 +16,7 @@
   GM_addStyle(`
     .RumbleChatEmotes-emoteMenu {
       background: #10212F;
-      border-radius: 0.7rem;
+      border-radius: 0.8rem;
       margin-bottom: 1rem;
       padding: 0.75rem;
       user-select: none;
