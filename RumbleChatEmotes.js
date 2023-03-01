@@ -23,7 +23,7 @@
     }
 
     .RumbleChatEmotes-emoteMenu div {
-      height: 260px;
+      height: 300px;
       overflow: scroll;
       overscroll-behavior: contain;
     }
