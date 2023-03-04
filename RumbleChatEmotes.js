@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.57
+// @version      0.58
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
@@ -23,7 +23,7 @@
     }
 
     .RumbleChatEmotes-emoteMenu div {
-      height: 830px;
+      height: 670px;
       overflow: scroll;
       overscroll-behavior: contain;
     }
