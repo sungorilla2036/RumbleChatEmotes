@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rumble Chat Emojis
 // @namespace    http://tampermonkey.net/
-// @version      0.59
+// @version      0.60
 // @description  Replace keywords with emojis
 // @author       Infrared Labs
 // @match        https://rumble.com/*
