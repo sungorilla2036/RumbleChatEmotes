@@ -64,6 +64,7 @@
       document.querySelector('.RumbleChatEmotes-emoteMenu').addEventListener('click', (ev) => {
         if (!ev.target.matches('img')) return;
         document.querySelector('.chat--input').value += ev.target.title;
+        document.querySelector('.chat--send').disabled = false;
       });
     });
 
