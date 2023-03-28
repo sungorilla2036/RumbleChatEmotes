@@ -15,11 +15,18 @@
 
   GM_addStyle(`
     .RumbleChatEmotes-emoteMenu {
-      background: #10212F;
+      background: #fff;
       border-radius: 0.6rem;
       margin-bottom: 1rem;
       padding: 0.75rem;
       user-select: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .RumbleChatEmotes-emoteMenu {
+        background: #061726;
+        color: inherit;
+      }
     }
 
     .RumbleChatEmotes-emoteMenu div {
@@ -38,7 +45,7 @@
   const emoteImage = (key) =>
     `<img src="${emotes[key]}" style="height: 24px; width: 24px;" title="${key}">`;
 
-  const chatHistoryList = document.querySelector('#chat-history-list')
+  const chatHistoryList = document.querySelector('#chat-history-list');
   if (!chatHistoryList) return;
 
   //
