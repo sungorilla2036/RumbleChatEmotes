@@ -22,14 +22,12 @@
       user-select: none;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .RumbleChatEmotes-emoteMenu {
-        background: #061726;
-        color: inherit;
-      }
+    .RumbleChatEmotes-emoteMenu.dark {
+      background: #061726;
+      color: inherit;
     }
 
-    .RumbleChatEmotes-emoteMenu div {
+    .RumbleChatEmotes-emoteMenu.dark div {
       height: 670px;
       overflow: scroll;
       overscroll-behavior: contain;
@@ -68,10 +66,29 @@
          `
       );
 
-      document.querySelector('.RumbleChatEmotes-emoteMenu').addEventListener('click', (ev) => {
+      const emoteMenu = document.querySelector('.RumbleChatEmotes-emoteMenu');
+
+      emoteMenu.addEventListener('click', (ev) => {
         if (!ev.target.matches('img')) return;
         document.querySelector('.chat--input').value += ev.target.title;
         document.querySelector('.chat--send').disabled = false;
+      });
+
+      const darkTheme = document.querySelector('.js-theme-ss--dark');
+
+      const updateTheme = () => {
+        if (darkTheme.disabled) {
+          emoteMenu.classList.remove('dark');
+        } else {
+          emoteMenu.classList.add('dark');
+        }
+      };
+
+      updateTheme();
+
+      new MutationObserver(() => updateTheme()).observe(darkTheme, {
+        attributes: true,
+        attributeFilter: ['disabled'],
       });
     });
 
