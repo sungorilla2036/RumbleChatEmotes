@@ -27,12 +27,6 @@
       color: inherit;
     }
 
-    .RumbleChatEmotes-emoteMenu.dark div {
-      height: 670px;
-      overflow: scroll;
-      overscroll-behavior: contain;
-    }
-
     .RumbleChatEmotes-emoteMenu summary { cursor: pointer; }
     .RumbleChatEmotes-emoteMenu img { cursor: pointer; padding: 4px; }
     .RumbleChatEmotes-emoteMenu img:hover { background: #d6e0ea; }
